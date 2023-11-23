@@ -1,6 +1,6 @@
 {
   "name": "@nik-shinde-7/ui-component",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "scripts": {
     "dev": "next dev",
@@ -9,7 +9,7 @@
     "lint": "next lint",
     "publish:npm": "rm -rf dist && mkdir dist &&  babel      ./src/components -d dist --copy-files"
   },
-  "babel": { 
+  "babel": {
     "presets": [
       "@babel/preset-react"
     ]
