@@ -1,6 +1,8 @@
 import Image from "next/image";
 import { Inter } from "next/font/google";
-import { Badge } from "@/components/badge";
+
+import React from "react";
+import Badge from "../components/badge";
 
 const inter = Inter({ subsets: ["latin"] });
 
