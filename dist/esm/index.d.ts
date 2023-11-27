@@ -1,2 +1,3 @@
 import Badge from "./components/badge";
-export { Badge };
+import Input from "./components/input";
+export { Badge, Input };
