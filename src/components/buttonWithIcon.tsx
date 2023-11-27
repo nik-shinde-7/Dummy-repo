@@ -1,6 +1,6 @@
 import React from "react";
 import { cn } from "../utils/utils";
-import { Button, buttonVariants } from "./button";
+import Button, { buttonVariants } from "./button";
 import { VariantProps } from "class-variance-authority";
 
 export interface ButtonWithIconProps
@@ -13,7 +13,7 @@ export interface ButtonWithIconProps
   iconposition?: "leading" | "trailing";
 }
 
-export function ButtonWithIcon(props: ButtonWithIconProps) {
+function ButtonWithIcon(props: ButtonWithIconProps) {
   const { icon, iconposition = "leading", label, className } = props;
 
   return (
@@ -30,3 +30,5 @@ export function ButtonWithIcon(props: ButtonWithIconProps) {
     </Button>
   );
 }
+
+export default ButtonWithIcon;
